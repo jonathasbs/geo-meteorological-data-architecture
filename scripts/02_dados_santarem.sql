@@ -8,7 +8,7 @@ SELECT
 FROM 
     bigquery-public-data.noaa_gsod.gsod2024
 WHERE 
-    stn = '822770' -- Coloque aqui o seu USAF
-    AND wban = '99999' -- Coloque aqui o seu WBAN
+    stn = '822770' 
+    AND wban = '99999'
 ORDER BY 
     mo, da ASC
