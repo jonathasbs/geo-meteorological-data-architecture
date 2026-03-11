@@ -2,13 +2,12 @@ SELECT
     usaf, -- Código da estação
     wban, 
     name, -- Nome da localidade
-    country, 
-    state, 
+    country,   
     lat, 
     lon
 FROM 
     bigquery-public-data.noaa_gsod.stations
 WHERE 
-    state = 'PA' AND country = 'BR'
+    country = 'BR' AND name = 'SANTAREM'
 ORDER BY 
     name ASC
