@@ -14,5 +14,3 @@ FROM
 WHERE 
     country = 'BR' 
     AND name = 'SANTAREM'
-ORDER BY 
-    station_name ASC;
