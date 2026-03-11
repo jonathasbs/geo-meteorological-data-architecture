@@ -12,4 +12,5 @@ Data-driven exploration of celestial bodies, focusing on *Rocky Exoplanets*, hab
 
 ## 🛠 Tech Stack
 * *Languages:* SQL (BigQuery, PostgreSQL)
-* *Tools:* Excel, Power BI, Google Data Analytics*
+* *Tools:* Excel, Power BI, Google Data Analytics
+* 
